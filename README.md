@@ -35,9 +35,7 @@ The application uses [__sqlite3__](https://docs.python.org/3/library/sqlite3.htm
 > streamlit run hims_app.py
 ```
 
-#### NOTE:
 
-* Here's a [link](https://drive.google.com/file/d/1DXUKgfrbsullwRjFxDKvNSSHKqBZ2Xur/view?usp=sharing) to a screen cast (video) of the working of this application. Please note that this video is for an older version, but there are not a lot of changes in the updated version. The changes in the updated version include:
   * __Edit mode password__ - this is to ensure that only the people who are authorised to add, delete and update the patient, doctor and department records can do so. Viewing the data doesn't require this second level of authentication.
   * __Doctor/ Medical Lab Scientist access code__ - this is to ensure that only doctors and medical lab scientists are able to add, delete and update prescription and medical test details. Viewing prescriptions and medical tests of a patient doesn't require this second level of authentication.
   * The functionality of *'Listing doctors of a particular department using the department unique ID'* has been moved from the *Doctor* module to the *Department* module.
